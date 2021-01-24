@@ -1,0 +1,183 @@
+@import "./variables.scss";
+
+.room-page-header {
+  height: 100vh;
+  position: initial;
+  z-index: -3;
+  background-color: $darker-blue;
+
+  .header-text {
+    display: grid;
+    place-content: center;
+    place-items: center;;
+
+    h2 {
+      color: white;
+      z-index: 2;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      letter-spacing: 1.2px;
+      text-align: center;
+    }
+
+    p {
+      color: white;
+      z-index: 2;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      line-height: 2.2rem;
+    }
+  }
+
+
+
+  .actions {
+    z-index: 2;
+    position: absolute;
+    bottom: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+
+    button {
+      background-color: transparent;
+      border: none;
+      text-align: start;
+      transform: rotate(-90deg);
+      cursor: pointer;
+      outline: none;
+    }
+
+    h3 {
+      text-align: start;
+      color: white;
+      font-weight: 300;
+      letter-spacing: 1px;
+      width: 80px;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.room-section {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  background-color: $darker-blue;
+  display: grid;
+  place-content: center;
+  grid-gap: 40px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    object-fit: cover;
+  }
+
+  h3 {
+    color: white;
+    font-size: 2rem;
+    z-index: 3;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    width: 300px;
+    margin-left: -150px;
+    text-align: center;
+  }
+
+  .details-btn {
+    z-index: 3;
+    text-align: center;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 1.3px;
+    font-weight: 200;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .details {
+    z-index: 4;
+    display: grid;
+    grid-gap: 60px;
+
+    button {
+      padding: 1rem;
+      text-decoration: underline;
+    }
+
+    .book-btn-container {
+      text-align: center;
+      padding-top: 4rem;
+
+      a {
+        padding: 0.8rem 1rem;
+        border: 1px solid white;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+
+    p {
+      color: white;
+      position: relative;
+      top: 45%;
+      text-align: center;
+      left: 50%;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      line-height: 2.2rem;
+      width: 300px;
+      margin-left: -150px;
+    }
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .room-page-header {
+    h2 {
+      letter-spacing: 1.3px;
+      width: 600px;
+      font-size: 6rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      letter-spacing: 1.3px;
+      line-height: 3rem;
+    }
+
+    .actions h3 {
+      font-size: 2rem;
+    }
+  }
+
+  .room-section {
+    h3 {
+      font-size: 3rem;
+      width: 400px;
+      margin-left: -200px;
+    }
+
+    .details .book-btn-container {
+      padding-top: 8rem;
+    }
+  }
+}
