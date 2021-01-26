@@ -34,12 +34,12 @@ const IndexPage = ({ data }) => {
         <section className="section-index">
           <div className="title">
             <p>Welcome to the</p>
-            <h3>Best Hotel in Toscolano Maderno</h3>
-            <p>from 1954</p>
+            <h3>Best Hotel in Jakarta Indonesia</h3>
+            <p>from 2010</p>
           </div>
           <div className="text">
             <p>
-              The Hotel Vittoria is located in the heart of Maderno village. Our
+              The Hotel Victory is located in the heart of Modern village. Our
               facility is comfortable and quiet: it is situated in a residential
               area surrounded by olive trees, it disposes of large and bright
               spaces in a warm and welcoming atmosphere. Our priority is to meet

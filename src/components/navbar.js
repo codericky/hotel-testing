@@ -18,7 +18,7 @@ const Navbar = contactPagePath => {
       >
         <nav>
           <Link className="logo" to="/">
-            <h1>Hotel Vittoria</h1>
+            <h1>Victory Hotel</h1>
           </Link>
           <a href="tel:0365641320" className="call-action">
             <img src={CallIcon} alt="phone icon" />
@@ -59,7 +59,7 @@ const Navbar = contactPagePath => {
       >
         <ul className="nav-links">
           <Link className="logo" to="/">
-            <h1>Hotel Vittoria</h1>
+            <h1>Victory Hotel</h1>
           </Link>
           <Link to="/">
             <li>Home</li>
