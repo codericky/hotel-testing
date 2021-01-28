@@ -25,5 +25,5 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
   ],
-  pathPrefix: "github.com/syukrie77/victory-booking-hotel",
+//  pathPrefix: "github.com/syukrie77/victory-booking-hotel",
 }
