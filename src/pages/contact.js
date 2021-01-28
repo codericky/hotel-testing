@@ -9,7 +9,7 @@ const ContactPage = props => {
   return (
     <>
       <Layout contactPagePath={props.location.pathname}>
-        <form action="" className="contact-form">
+        <form action="https://getform.io/f/676e5bfd-1154-4ee8-aad5-3568fca6d19e" method="POST" className="contact-form">
           <div className="row">
             <h3>Contact Us</h3>
           </div>

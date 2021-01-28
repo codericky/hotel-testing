@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://vittoriahotel.eu",
+    siteUrl: "https://hotel.victorycorp.co.id",
   },
   plugins: [
     {
@@ -25,5 +25,5 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
   ],
-  pathPrefix: "easaaa.github.io/hotel-vittoria-2020/",
+  pathPrefix: "https://github.com/syukrie77/victory-booking-hotel",
 }
