@@ -57,4 +57,13 @@ export const ROOMS = [
     imageUrl: InsideView,
     breakfast: true,
   },
+  {
+    type: "Yunami Rooms",
+    id: 16,
+    for: 6,
+    priceHighSeason: 100,
+    priceLowSeason: 85,
+    imageUrl: InsideView,
+    breakfast: true,
+  },
 ]

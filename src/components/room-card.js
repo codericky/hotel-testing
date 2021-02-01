@@ -129,7 +129,7 @@ const RoomCard = ({ price, img, type, breakfast, night }) => {
           <span className="n-night">{night}</span> night
         </p>
       </div>
-      <Link to="/contact" className="book-btn">
+      <Link to="/submit" className="book-btn">
         Book Room
       </Link>
     </section>

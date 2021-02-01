@@ -14,13 +14,10 @@ const Footer = () => {
       </div>
       <div className="border"></div>
       <div className="address">
-        <h4>Italia</h4>
-        <h4>Toscolano Maderno</h4>
-        <h4>(BS) 25088</h4>
-        <h4>Via Beneamati 114</h4>
-        <h4>TEL. 0365 641320</h4>
-        <h4>info@vittoriahotel.eu</h4>
-        <h4>P.iva 01558810980</h4>
+        <h4>Indonesia</h4>
+        <h4>Jl. Johar No.23, RT.5/RW.3, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350</h4>
+        <h4>Call : (021) 3909356</h4>
+        <h4>email : info@victorycorp.co.id</h4>
       </div>
 
       <div className="btn-get-directions">
@@ -39,15 +36,15 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-        <h5>© COPYRIGHT HOTEL VITTORIA {currentYear} - ALL RIGHTS RESERVED.</h5>
+        <h5>©Victory Corp.{currentYear} - ALL RIGHTS RESERVED.</h5>
         <p>
-          Made and design by{" "}
+          support by{" "}
           <a
             rel="noopener noreferrer"
             target="_BLANK"
-            href="https://leonardotononi.com"
+            href="https://syukrieseo.com/"
           >
-            Leonardo Tononi
+            Syukrie seo
           </a>
         </p>
       </div>

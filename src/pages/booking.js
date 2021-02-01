@@ -10,13 +10,6 @@ import Layout from "../layouts"
 import RoomFinder from "../components/room-finder"
 import RoomCard from "../components/room-card"
 
-import BedRoom from "../images/hotel/bed-room-header.png"
-import Pool from "../images/hotel/swimming-pool.png"
-import Garden from "../images/hotel/garden.png"
-import GardenSecondary from "../images/hotel/garden-secondary.png"
-import LakeRoomPicture from "../images/hotel/bed-room-lake.jpg"
-import LakeRoomPicture2 from "../images/hotel/bed-room-lake.png"
-
 const BookingPage = () => {
   const [booking, setBooking] = useState({
     startDate: "",

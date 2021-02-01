@@ -10,7 +10,6 @@ const RoomFinder = ({
   setBooking,
   onSubmitFind,
   setOnSubmitFind,
-
   handleScrollEffect,
 }) => {
   const [toggleRoomFinder, setToggleRoomFinder] = useState(false)

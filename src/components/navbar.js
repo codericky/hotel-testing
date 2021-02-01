@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-
 import HambIconWhite from "../images/icons/hamb.svg"
-import CloseIcon from "../images/icons/close-btn.png"
 import CallIcon from "../images/icons/call.png"
 
 const Navbar = contactPagePath => {
@@ -44,7 +42,7 @@ const Navbar = contactPagePath => {
             </Link>
             <Link className="booking-btn" to="/booking">
               {" "}
-              <li>Book a room</li>
+              <li>Book a rooms</li>
             </Link>
           </ul>
         ) : null}
@@ -73,7 +71,7 @@ const Navbar = contactPagePath => {
           </Link>
           <Link className="booking-btn" to="/booking">
             {" "}
-            <li>Book a room</li>
+            <li>Book a rooms</li>
           </Link>
         </ul>
       </nav>

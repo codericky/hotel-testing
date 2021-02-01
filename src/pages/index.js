@@ -1,11 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/index.scss"
-
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 import Layout from "../layouts"
-
 const IndexPage = ({ data }) => {
   console.log(data)
 
@@ -92,7 +90,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    headerImg: file(relativePath: { eq: "bed-room-header.png" }) {
+    headerImg: file(relativePath: { eq: "victory_about.jpg" }) {
       id
       childImageSharp {
         fluid(quality: 100) {
