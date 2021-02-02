@@ -9,7 +9,7 @@ return (
         <form action="https://getform.io/f/676e5bfd-1154-4ee8-aad5-3568fca6d19e" method="POST" className="contact-form">
           <div className="row">
           </div>
-          <p>Name</p>
+          <p>Names</p>
           <div className="row">
             <input type="text" placeholder="Name" />
           </div>
