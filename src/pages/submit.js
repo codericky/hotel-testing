@@ -1,13 +1,15 @@
 import React from "react"
-import Layout from "../layouts"
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 const submit = () => {
 return (
     <>
-    <Layout>
+    <Navbar />
         <form action="https://getform.io/f/4ff24713-f674-4ed2-b7f7-09d14682722f" method="POST" className="contact-form">
           <div className="row">
           <h1>Booking Hotel Reservation</h1>
           </div>
+          <br />
           <p>First Name</p>
           <div className="row">
             <input type="text" name="firstname" />
@@ -50,7 +52,7 @@ return (
             <button type="submit">Send</button>
           </div>
         </form>
-        </Layout>
+        <Footer />
   </>
   )
 }
