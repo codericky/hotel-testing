@@ -5,9 +5,9 @@ const submit = props => {
 return (
     <>
           <Layout contactPagePath={props.location.pathname}>
-        <center><h1>Booking Hotel Reservation</h1></center>
         <form action="https://getform.io/f/4ff24713-f674-4ed2-b7f7-09d14682722f" method="POST" className="contact-form">
           <div className="row">
+          <h1>Booking Hotel Reservation</h1>
           </div>
           <p>Name</p>
           <div className="row">
