@@ -14,16 +14,16 @@ const ContactPage = props => {
             <h3>Contact Us</h3>
           </div>
           <div className="row">
-            <input type="text" placeholder="Name" />
+            <input type="text" name="name" placeholder="Name" />
           </div>
           <div className="row">
-            <input type="date" placeholder="Check In" />
+            <input type="date" name="Check In" placeholder="Check In" />
           </div>
           <div className="row">
-            <input type="date" placeholder="Check Out" />
+            <input type="date"name="Check Out" placeholder="Check Out" />
           </div>
           <div className="row">
-            <input type="email" placeholder="E-mail" />
+            <input type="email" name="email" placeholder="E-mail" />
           </div>
           <div className="row">
             <textarea
