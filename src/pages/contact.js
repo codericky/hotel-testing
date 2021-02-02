@@ -17,6 +17,12 @@ const ContactPage = props => {
             <input type="text" placeholder="Name" />
           </div>
           <div className="row">
+            <input type="date" placeholder="Check In" />
+          </div>
+          <div className="row">
+            <input type="date" placeholder="Check Out" />
+          </div>
+          <div className="row">
             <input type="email" placeholder="E-mail" />
           </div>
           <div className="row">
