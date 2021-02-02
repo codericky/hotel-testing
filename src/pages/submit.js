@@ -21,14 +21,6 @@ return (
           <div className="row">
             <input type="text" placeholder="How many adults" />
           </div>
-          <p>Check In</p>
-          <div className="row">
-            <input type="date" placeholder="Check In " />
-          </div>
-          <p>Check Out</p>
-          <div className="row">
-            <input type="date" placeholder="Check Out" />
-          </div>
           <p>Email</p>
           <div className="row">
             <input type="email" placeholder="E-mail" />
