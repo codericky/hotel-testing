@@ -1,9 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import "../styles/room-card.scss"
-import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md"
-import LakeBedRoom from "../images/hotel/bed-room-lake.png"
-
+import { MdArrowDropUp } from "react-icons/md"
 import TvIcon from "../images/icons/tv.png"
 import FridgeIcon from "../images/icons/fridge.png"
 import CoolingIcon from "../images/icons/cooling.png"

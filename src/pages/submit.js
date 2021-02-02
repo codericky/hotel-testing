@@ -1,14 +1,20 @@
 import React from "react"
+import Layout from "../layouts"
 const submit = () => {
 return (
     <>
+    <Layout>
         <form action="https://getform.io/f/4ff24713-f674-4ed2-b7f7-09d14682722f" method="POST" className="contact-form">
           <div className="row">
           <h1>Booking Hotel Reservation</h1>
           </div>
-          <p>Name</p>
+          <p>First Name</p>
           <div className="row">
-            <input type="text" name="name" />
+            <input type="text" name="firstname" />
+          </div>
+          <p>Last Name</p>
+          <div className="row">
+            <input type="text" name="lastname" />
           </div>
           <p>Name Rooms</p>
           <div className="row">
@@ -44,7 +50,7 @@ return (
             <button type="submit">Send</button>
           </div>
         </form>
-    
+        </Layout>
   </>
   )
 }
