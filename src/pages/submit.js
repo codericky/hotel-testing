@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-const submit = () => {
+const submit = props => {
 return (
     <>
     <Navbar />
