@@ -6,7 +6,7 @@ return (
     <>
     <Layout>
         <center><h1>Booking Hotel Reservation</h1></center>
-        <form action="https://getform.io/f/676e5bfd-1154-4ee8-aad5-3568fca6d19e" method="POST" className="contact-form">
+        <form action="https://getform.io/f/4ff24713-f674-4ed2-b7f7-09d14682722f" method="POST" className="contact-form">
           <div className="row">
           </div>
           <p>Names</p>
